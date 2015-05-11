@@ -1,0 +1,66 @@
+#info {
+	font-size:10px;
+}
+.FindItem{
+	background-color:#f96;
+	/*color:white;*/
+}
+.msearch-modal {
+	position:fixed;
+	top:50px;
+	left:50px;
+	width:360px;
+	padding:10px 20px;
+	z-index: 9999;
+	box-shadow:0 0 10px 1px #999;
+	background:#fff;
+}
+.msearch-close {
+	float:right;
+	margin:0 0 10px 0;
+	cursor: pointer;
+}
+.msearch-info {
+
+}
+.msearch-info table {
+	font-size: 11px;
+	border-spacing: 0;
+	margin:20px 0 10px 0;
+	width:360px;
+}
+.msearch-info tr th,
+.msearch-info tr td {
+	padding:5px;
+	border:1px solid #fff;
+}
+.msearch-info tr th {
+	background: #ccc;
+}
+.msearch-info tr td {
+
+}
+.msearch-info tr.odd td {
+	background: #f9f9f9;
+}
+.msearch-info tr.even td {
+	background: #eee;
+}
+.msearch-info tr .col01 {
+	text-align: center;
+}
+.msearch-info tr .col02 {
+	text-align: center;
+}
+.msearch-info tr .col03 {
+	
+}
+.msearch-info tr td .found {
+	color:#013ADF;
+}
+.msearch-info tr td .not-found {
+	color:#DF0101;
+}
+.msearch-info .popup-btn {
+	display:none;
+}

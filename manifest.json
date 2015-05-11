@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Multi Search",
+  "description": "複数行のテキストをそれぞれ行（改行区切り）単位で検索し、それぞれの一致箇所をハイライトする。",
+  "version": "1.0",
+  "background": {
+  	"scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Multi Search",
+    "default_icon":"icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css":["style.css"],
+      "js": ["jquery.min.js", "content_script.js"]
+    }
+  ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+  "permissions": ["tabs"],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

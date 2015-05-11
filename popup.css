@@ -1,0 +1,84 @@
+div, td, th { color: black; }
+body {
+	width:400px;
+}
+.inner {
+	padding:20px;
+}
+#words {
+	width:100%;
+	height:200px;
+}
+.btn {
+	border:none;
+	padding:10px 15px;
+	margin-left:15px;
+	min-width:100px;
+	color:#fff;
+	/*font-weight:bold;*/
+	font-size:14px;
+}
+.btn-area {
+	margin:10px 0 0;
+	text-align: right;	
+}
+.btn-area .search-btn {
+	background: #277dc4;
+}
+.btn-area .search-btn:hover {
+	background: #4892CF;
+}
+.btn-area .clear-btn {
+	background: #aaa;
+}
+.btn-area .clear-btn:hover {
+	background: #ccc;
+}
+#info {
+	display:none;
+}
+#info table {
+	font-size: 11px;
+	border-spacing: 0;
+	margin:20px 0 10px 0;
+	width:360px;
+}
+#info tr th,
+#info tr td {
+	padding:5px;
+	border:1px solid #fff;
+	table-layout: fixed;
+}
+#info tr th {
+	background: #ccc;
+}
+#info tr td {
+
+}
+#info tr.odd td {
+	background: #f9f9f9;
+}
+#info tr.even td {
+	background: #eee;
+}
+#info tr .col01 {
+	text-align: center;
+}
+#info tr .col02 {
+	text-align: center;
+}
+#info tr .col03 {
+	
+}
+#info tr td .found {
+	color:#013ADF;
+}
+#info tr td .not-found {
+	color:#DF0101;
+}
+#info .popup-btn {
+	background: #277dc4;
+}
+#info .popup-btn:hover {
+	background: #4892CF;
+}
